@@ -179,6 +179,12 @@ media queries
     margin: 1rem;
   }
 }
+@media screen and (max-width:360px){
+   .btn{
+    display: flex;
+    margin: 1rem;
+  }
+}
 @media screen and (max-width:768px){
   footer p{
         margin-top: 10rem;
