@@ -137,7 +137,9 @@ footer{
   text-align: center;
   margin-top: -10rem;
 }
-
+.counter{
+  font-size: 2rem;
+}
 /*
 =============== 
 media queries
@@ -166,8 +168,15 @@ media queries
   footer p{
     margin-top: 8rem;
   }
+  .counter{
+    margin-top: 5rem;
+  }
   .button-container .increase{
     margin-top: 0.2rem;
+  }
+  .btn{
+    display: flex;
+    margin: 1rem;
   }
 }
 @media screen and (max-width:768px){
@@ -179,5 +188,10 @@ media queries
 @media screen and (max-width:1024px){
   footer p{
         margin-top: 10rem;
+  }
+}
+@media screen and (min-width:1440px){
+  footer p{
+    margin-top: 5rem;
   }
 }
